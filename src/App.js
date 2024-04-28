@@ -16,7 +16,7 @@ const App = () => {
         );
         setEmployees(response.data);
       } catch (error) {
-        setError("Failed to fetch data");
+        alert("Failed to fetch data");
       }
     };
 
